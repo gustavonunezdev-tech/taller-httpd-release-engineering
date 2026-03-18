@@ -17,7 +17,7 @@ spec:
         deployment: my-app
     spec:
       containers:
-      - image: 'my-app:1.0'
+      - image: 'my-app:1.0.0'
         imagePullPolicy: IfNotPresent
         name: my-app
         ports:
